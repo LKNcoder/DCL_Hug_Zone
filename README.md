@@ -25,18 +25,14 @@ he wrote the original code and I clumsily adapted it
 	
 	import { createHugArea } from "./autoHug";
 
-
-	export function main() {
-
- 		 createHugArea(Vector3.create(7, 1, 7),Vector3.create(9, 0, 9)) }
+	export function main() { createHugArea(Vector3.create(7, 1, 7),Vector3.create(9, 0, 9)) }
 
 
-//here the coordinates (7, 1, 7) set the location of the middle of the hug zone.
-//the other coordinates (9, 0, 9) set the size which you should not change unless you also resize the glb to match. 
+// here the coordinates (7, 1, 7) set the location of the middle of the hug zone.
+// the other coordinates (9, 0, 9) set the size which you should not change unless you also resize the glb to match. 
 // also change the coordinates of Transform.create(hugZone, {position: Vector3.create(7, 0, 7),}) to the same location
 
 6. make sure you are also importing { GltfContainer, Transform, engine } from "@dcl/sdk/ecs"; 
-
 
 7. run npm i decentraland-ecs@latest to update everything
 
