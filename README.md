@@ -21,16 +21,12 @@ he wrote the original code and I clumsily adapted it
 
 4. copy the autoHug.ts file into your /src folder
 
-5. edit your index.ts to include the stuff mine has, like
-	
-	import { createHugArea } from "./autoHug";
+5. edit your index.ts to include the stuff mine has.
 
-	export function main() { createHugArea(Vector3.create(7, 1, 7),Vector3.create(9, 0, 9)) }
-
-
-// here the coordinates (7, 1, 7) set the location of the middle of the hug zone.
-// the other coordinates (9, 0, 9) set the size which you should not change unless you also resize the glb to match. 
-// also change the coordinates of Transform.create(hugZone, {position: Vector3.create(7, 0, 7),}) to the same location
+notice the coordinates (7, 1, 7) set the location of the middle of the hug zone.  change these 7s to move it.
+the other coordinates (9, 0, 9) set the size, which you should not change unless you also resize the glb to match. 
+also change the coordinates of the Transform.create(hugZone, {position: Vector3.create(7, 0, 7),}) to the same location as the hug zone
+so the glb and hug emote will be at the same place 
 
 6. make sure you are also importing { GltfContainer, Transform, engine } from "@dcl/sdk/ecs"; 
 
