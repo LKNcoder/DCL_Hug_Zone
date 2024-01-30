@@ -23,7 +23,7 @@ he wrote the original code and I clumsily adapted it
 
 2. copy the emotes folder which contains the HugEmote
 
-3. copy the models folder which contains hugbox.glb
+3. copy the models folder which contains hugZone.glb
 
 4. copy the autoHug.ts file into your /src folder
 
