@@ -42,9 +42,9 @@ so the glb and hug emote will be at the same place
 
 8. cross your fingers and try npm run start to see if it works!
 
-https://github.com/LKNcoder/DCL_Hug_Zone/blob/main/hugzone-demo1.png?raw=true
+![img1](https://github.com/LKNcoder/DCL_Hug_Zone/blob/main/hugzone-demo1.png?raw=true)
 
-https://github.com/LKNcoder/DCL_Hug_Zone/blob/main/hugzone-demo2.png?raw=true
+![img2](https://github.com/LKNcoder/DCL_Hug_Zone/blob/main/hugzone-demo2.png?raw=true)
 
 
 
