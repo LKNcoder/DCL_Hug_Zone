@@ -9,7 +9,9 @@ feel free to add it to your world!
 # SDK7 Template scene
 
 shout out to DOGMAN and his Auto Dance Area for SDK7
+
 he wrote the original code and I clumsily adapted it
+
 
 ## How to add A HUG ZONE to your project:
 
@@ -40,9 +42,9 @@ so the glb and hug emote will be at the same place
 
 8. cross your fingers and try npm run start to see if it works!
 
-https://github.com/LKNcoder/DCL_Hug_Zone/blob/main/hugzone-demo1.png
+https://github.com/LKNcoder/DCL_Hug_Zone/blob/main/hugzone-demo1.png?raw=true
 
-https://github.com/LKNcoder/DCL_Hug_Zone/blob/main/hugzone-demo2.png
+https://github.com/LKNcoder/DCL_Hug_Zone/blob/main/hugzone-demo2.png?raw=true
 
 
 
